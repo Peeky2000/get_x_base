@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000331">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: flutter_version" time="0.001313">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: flutter_version" time="0.000505">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: fvm flutter clean" time="5.655622">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: ./pub_get.sh" time="12.015884">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: fvm flutter build appbundle --target=lib/main_prod.dart --flavor=prod" time="67.466891">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: rm -rf Nanobook.aab" time="0.00948">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: mv app-prod-release.aab Nanobook.aab" time="0.007878">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: upload_to_play_store" time="53.984998">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: git_tag_exists" time="0.036504">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: add_git_tag" time="0.021432">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: push_git_tags" time="2.555733">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: ./update_version.sh 3.0.2 377" time="0.030647">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: git add ." time="0.023183">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: git commit -m &quot;update version&quot;" time="0.021515">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="15: git push -u origin release" time="2.21289">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
